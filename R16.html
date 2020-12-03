@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>Home</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+            button{
+                width: 150px;
+                height: 80px;
+                color: black;
+                border: none;
+                background-color: transparent;
+                margin: 20px;
+                cursor: pointer;
+                font-size: 1.5em;
+            }
+            
+            #eigth{
+                position: relative;
+                transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                transition-duration: 0.8s;
+            }
+    
+            #eigth::after{
+                content: '';
+                position: absolute;
+                background-color: black;
+                width: 0%;
+                height: 0%;
+                top:45%;
+                left: 45%;
+                transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                transition-duration: 0.8s;
+                z-index: -1;
+                border-radius:50%;
+            }
+            #eigth:hover::after{
+                width: 100%;
+                height: 100%;
+                top: 0%;
+                left: 0;
+                border-radius: 0;
+            }
+            #eigth:hover{
+                color: #fff;
+            }
+            h2{
+      text-align: center;
+      padding: 10px;
+      color: rgb(44, 48, 48);
+    }
+    .btn:hover {background: #eee;}
+    
+    
+      
+    
+    
+        </style>
+    </head>
+      <body background="Images/BACK3.JPG"></body>
+</head>
+<body>
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                   <!---- <a class="navbar-brand" href="#">CSE WORLD</a>--->
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a class="navbar-brand" href="#">CSE WORLD</a></li>
+                    <li><a href="homepage.html">Home</a></li> &nbsp;&nbsp;
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Team.html">Team </a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <li class="dropdown,active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Regulations<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="R16.html">R16</a></li>
+                          <li><a href="#">R13/R15</a></li>
+                          
+                        </ul>
+                  </ul>
+        
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://localhost/app/index.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                  </ul>
+                </div>
+              </nav>
+        
+        
+              <div class="container">
+                    <h2 > <font size="15"> CSE WORLD: R16 regulation</font></h2>
+        <center> <a href="2-1sem.html">
+        <button>2-1 SEMISTER</button></a> 
+        <a href="3-1sem.html">
+        <button>3-1 SEMISTER</button></a>
+        <a href="4-1sem.html">
+        <button>4-1 SEMISTER</button></center><br></br></a>
+        <center>  <a href="2-2sem.html">
+        <button>2-2 SEMISTER</button></a>
+        <a href="3-2sem.html">
+        <button>3-2 SEMISTER</button></a>
+        <a href="4-2sem.html">
+        <button>4-2 SEMISTER</button></center><br></br></a>
+        <center>  <a href="extra.html">
+            <button>EXTRA KNOWLEDGE</button><br></br></a></center>
+            </div>
+</body>
+</html>
